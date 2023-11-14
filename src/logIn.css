@@ -1,0 +1,72 @@
+.signIn {
+    width: 350px;
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(103, 45, 1);
+    margin-top: 10vh;
+    border-radius: 10px;
+}
+
+.title {
+    color: rgb(31, 19, 0);
+    ;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.input_wrap {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto auto;
+}
+
+#email,
+#password {
+    height: 2.5rem;
+    margin-bottom: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 2px solid rgb(103, 45, 1);
+    &:hover {
+        background: rgb(255, 157, 0);
+        border: solid white;
+    }
+}
+
+#email::placeholder,
+#password::placeholder {
+    font-size: 1.1rem;
+    margin-left: 10px;
+    color: black;
+}
+
+.sign_btn,
+.register_btn {
+    height: 2.5rem;
+    width: 30%;
+    font-size: 1.1rem;
+    background: rgb(255, 157, 0);
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid rgb(103, 45, 1);
+    &:hover {
+        background: rgb(8, 2, 34);
+        color: white;
+    }
+}
+
+.register_btn {
+    width: 90%;
+    margin: auto auto;
+    margin-bottom: 40px;
+}
+
+.condition {
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: 600;
+}

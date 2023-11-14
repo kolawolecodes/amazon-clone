@@ -1,0 +1,30 @@
+#blank {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: black;
+    opacity: 0.7;
+    height: 100vh;
+    z-index: 6;
+    overflow: hidden;
+
+    #overlay__menu_close {
+        position: absolute;
+        left: 390px;
+        top: 20px;
+        cursor: pointer;
+
+        #overlay_nav__line1, #overlay_nav__line2 {
+            width: 27px;
+            height: 3px;
+            margin: 0 0 15px 0;
+            transform: rotate(45deg);
+            background: whitesmoke;
+        }
+        
+        #overlay_nav__line2 {
+            transform: rotate(-45deg);
+            margin-top: -17px;
+        }
+    }
+}

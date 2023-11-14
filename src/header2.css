@@ -1,0 +1,131 @@
+.header2 {
+    width: 100%;
+    z-index: 6;
+
+    
+
+    .main__nav__wrapper {
+        position: fixed;
+        top: 60px;
+        width: 100%;
+        display:flex;
+        background: #232f3e;
+        height: 48px;
+        z-index: 5;
+       
+
+        .main__nav {
+            width: 40%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .for_all {
+                /* margin-top: 12px; */
+                margin-left: 2px;
+                padding: 5px 35px 5px 5px;
+                color: whitesmoke;
+
+                &:hover {
+                    border: 1px solid whitesmoke;
+                    border-radius: 3px;
+                }
+
+            }
+        }
+
+       
+        .all__and_line_btn {
+            height: 48px;
+            display: flex;
+            justify-content: center;
+            align-item: center;
+            margin-right: 10px;
+
+            #header__nav__btn {
+                position: absolute;
+                top: 13px;
+                left: 90px;
+                width: 30px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                margin-top: 5px;
+                margin-left: 3px;
+                z-index: 7;
+
+                #nav__all__line {
+                    width: 20px;
+                    height: 3px;
+                    margin: 0 0 3px 0;
+                    background: whitesmoke;
+                }
+            }
+                
+                &:hover {
+                    border: 1px solid whitesmoke;
+                    border-radius: 3px;
+                }
+        }
+
+        .header2__nav__links_wrap {
+            width: 70%;
+            display: flex;
+            justify-content: space-between;
+
+            .header2___link {
+                color: whitesmoke;
+                text-decoration-line: none;
+                font-size: 16px;
+                font-weight: 500;
+                padding: 7px 5px 9px 5px;
+                
+                &:hover {
+                    border: 1px solid whitesmoke;
+                    border-radius: 3px;
+                }
+            }
+        }
+    }
+
+    #newDrop {
+        visibility: hidden;
+
+        .show {
+            visibility: visible;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

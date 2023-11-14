@@ -1,0 +1,20 @@
+.checkout {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkOut__content__wrap {
+    display: flex;
+    width: 90%;
+    margin: auto auto;
+}
+
+.left__side {
+    width: 50%;
+    margin-top: 100px;
+}
+
+.right__side {
+    margin-top: 100px;
+    width: 50%;
+}
